@@ -1,0 +1,45 @@
+{
+  "theme_color": "#8936FF",
+  "background_color": "#2EC6FE",
+  "icons": [
+    {
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "src": "icon512_maskable.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "512x512",
+      "src": "icon512_rounded.png",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "ss1.png",
+      "type": "image/png",
+      "sizes": "1178x996",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "ss1.png",
+      "type": "image/jpg",
+      "sizes": "1178x996",
+      "form_factor": "wide"
+    },
+    {
+      "src": "ss1.png",
+      "type": "image/jpg",
+      "sizes": "1178x996",
+      "platform": "ios"
+    }
+  ],
+  "orientation": "any",
+  "display": "standalone",
+  "dir": "auto",
+  "lang": "en-IN",
+  "name": "test-pwa",
+  "short_name": "test-app",
+  "start_url": "."
+}
