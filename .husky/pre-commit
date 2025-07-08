@@ -1,0 +1,9 @@
+echo "\033[34mBuild in progress — please wait...\033[0m"
+npm run build
+
+if [ $? -ne 0 ]; then
+  echo "\033[31mBuild failed. Aborting commit.\033[0m"
+  exit 1
+fi
+
+echo "\033[32mBuild successful. Proceeding with commit.\033[0m"
