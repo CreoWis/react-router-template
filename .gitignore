@@ -11,7 +11,5 @@
 .wrangler
 .dev.vars*
 
-# Ignore config files
-..prettierrc
-.eslintrc.js
+
 
