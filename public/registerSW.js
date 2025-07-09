@@ -4,6 +4,6 @@ if (navigator.serviceWorker) {
       await navigator.serviceWorker.register('./sw.js');
     }
   } catch (err) {
-    console.log('Error Registering SW');
+    console.error('Error Registering SW:', err);
   }
 }
