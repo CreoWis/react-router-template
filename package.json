@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "lint": "eslint app workers . --ext .ts,.tsx --ignore-pattern build/ --ignore-pattern node_modules/ --ignore-pattern .vscode/  --ignore-pattern .react-router/ ",
+    "lint": "eslint . --ext .ts,.tsx --fix",
     "format": "prettier --write .",
     "build": "react-router build",
     "cf-typegen": "wrangler types",
